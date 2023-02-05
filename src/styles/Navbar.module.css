@@ -1,0 +1,48 @@
+.btn {
+    padding: 13px 40px;
+    background-color: var(--Blue);
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+    width: 193px;
+    font-weight: 500;
+    height: 51px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 30px 100px;
+    border-bottom: 2px solid #CDCDCD;
+    font-family: 'Syne', sans-serif;
+}
+
+.nav .navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.nav .navLinks ul {
+    display: flex;
+    gap: 65px;
+    list-style: none;
+}
+
+.nav .CTA {
+    display: flex;
+    align-items: center;
+    width: 290px;
+    justify-content: space-between;
+}
+
+.nav .CTA p:nth-child(1) {
+    color: var(--Low-Black);
+}
+
+.nav .CTA .btn {
+    color: var(--White);
+}

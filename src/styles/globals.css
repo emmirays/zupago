@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --Blue: #076AFF;
+  --Low-Black: #3E3E3E;
+  --Card-txt-color: #5E648A;
+  --White: #fff;
+}
+
+a{
+  color: var(--Low-Black);
+  text-decoration: none;
+}
+
+.btn {
+  padding: 13px 40px;
+  background-color: var(--Blue);
+  font-family: 'Syne', sans-serif;
+  font-size: 20px;
+  width: 193px;
+  font-weight: 500;
+  height: 51px;
+}
+
+.appLink{
+  display: flex;
+  gap: 20px;
+}
+
+.heading {
+  font-family: 'Syne', sans-serif;
+  font-size: 46px;
+  font-weight: 500;
+}

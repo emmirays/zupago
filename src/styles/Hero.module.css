@@ -1,0 +1,79 @@
+.hero {
+    display: flex;
+    font-family: 'Syne', sans-serif;
+    align-items: center;
+    padding: 0 0 0 100px;
+
+    justify-content: space-between;
+}
+
+.hero .txt {
+    width: 45%;
+}
+
+.hero .txt h1 {
+    font-size: 66px;
+    margin-bottom: 34px;
+    position: relative;
+}
+
+.hero .txt h1>span {
+    color: var(--Blue);
+}
+
+.hero .txt h1>.anim svg {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    z-index: -999;
+}
+
+.hero .txt .para {
+    font-size: 18.96px;
+    margin-bottom: 40px;
+    width: 90%;
+    line-height: 24.55px;
+    color: var(--Low-Black);
+}
+
+.hero .txt .appLink {
+    margin-bottom: 50px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.hero .txt .appLink img {
+    width: 220px;
+}
+
+.hero .txt .appStats {
+    display: flex;
+}
+
+.hero .txt .appStats .activeUsers {
+    padding-right: 40px;
+    border-right: 1px solid #000;
+}
+
+.hero .txt .appStats .Downloads {
+    padding-left: 40px;
+}
+
+.hero .txt .appStats .users {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.hero .txt .appStats .users .count {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45.88px;
+}
+
+.hero .txt .appStats .users .p {
+    font-size: 15px;
+}
+
+.hero .img1 {
+    width: 800px;
+}
