@@ -20,7 +20,7 @@ export default function Navbar() {
             </li>
 
             <li>
-              <Link href="/test">Features</Link>
+              <Link href="/features">Features</Link>
             </li>
 
             <li>

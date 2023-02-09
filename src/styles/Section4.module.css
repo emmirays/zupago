@@ -23,3 +23,7 @@
     background-color: var(--White);
     color: var(--Blue);
 }
+
+.bgwhite{
+    background-color: var(--White) !important;
+}

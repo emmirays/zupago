@@ -1,13 +1,11 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
-// import styles from "@/styles/Home.module.css";f
-import Navbar from "@/components/Navbar/navbar";
-import Hero from "@/components/Hero/hero";
-import Section1 from "@/components/Section1/section1";
-import Footer from "@/components/Footer/footer";
-import Section2 from "@/components/Section2/section2";
-import Section3 from "@/components/Section3/section3";
-import Section4 from "@/components/Section4/section4";
+import styles from "@/styles/Home.module.css";
+import Hero from "@/components/Hero";
+import Section1 from "@/components/Section1";
+import Section2 from "@/components/Section2";
+import Section3 from "@/components/Section3";
+import Section4 from "@/components/Section4";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,13 +18,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <Navbar />
       <Hero />
       <Section1 />
       <Section2 />
       <Section3 />
       <Section4 />
-      <Footer />
     </>
   );
 }

@@ -1,0 +1,12 @@
+
+
+.btn {
+    padding: 13px 40px;
+    background-color: var(--Blue);
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+    width: 193px;
+    font-weight: 500;
+    height: 51px;
+}
+

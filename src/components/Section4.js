@@ -1,4 +1,5 @@
 import styles from "@/styles/Section4.module.css";
+import Button from "./Button";
 export default function Section4() {
   return (
     <>
@@ -11,7 +12,7 @@ export default function Section4() {
           form. Do not be left out, join the digital means of payment and enjoy
           the beauty of easy transactions.
         </p>
-        <p class={styles.btn}>Get Started</p>
+        <Button />
       </section>
     </>
   );
