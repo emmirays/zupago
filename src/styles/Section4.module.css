@@ -1,0 +1,25 @@
+.section4 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 100px 0 80px;
+    align-items: center;
+    padding: 100px 0;
+    background-image: url(/section4-img/banner.png);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Syne', sans-serif;
+    color: var(--White);
+}
+
+.section4 .para {
+    font-size: 18px;
+    line-height: 23.31px;
+    width: 60%;
+}
+
+.section4 .btn {
+    background-color: var(--White);
+    color: var(--Blue);
+}

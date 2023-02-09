@@ -1,0 +1,66 @@
+.section2 {
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.section2 .img3 {
+    width: 750px;
+}
+
+.section2 .txt {
+    width: 45%;
+    font-family: 'Syne', sans-serif;
+    font-size: 18px;
+}
+
+.section2 .txt .heading {
+    width: 80%;
+    line-height: 59.57px;
+    margin-bottom: 10px;
+}
+
+.section2 .txt .para {
+    font-weight: 500;
+    line-height: 23.31px;
+    color: var(--Low-Black);
+}
+
+.section2 .txt .head {
+    font-weight: 600;
+    line-height: 26.46px;
+}
+
+.section2 .txt .list {
+    width: 95%;
+}
+
+.section2 .txt .list p {
+    font-weight: 500;
+    line-height: 26.46px;
+}
+
+.section2 .txt .list p>span {
+    margin-left: 9.5px;
+}
+
+.section2 .txt .msg {
+    position: absolute;
+    right: 170px;
+    bottom: 0;
+}
+
+.section2 .txt .msg span {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--Low-Black);
+    padding: 13px 24px;
+    position: relative;
+    font-weight: 500;
+    bottom: 70px;
+    left: 25px;
+    background: var(--White);
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+}

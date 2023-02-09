@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/footer";
 import Navbar from "@/components/Navbar/navbar";
 import Section1 from "@/components/Section1/section1";
 import styles from "@/styles/Section1.module.css";
@@ -15,6 +16,10 @@ export default function Test() {
       <Navbar/>
       <div className={styles.mt}>
         <Section1 />
+        <Section1 />
+        <Section1 />
+        <Section1 />
+        <Footer/>
       </div>
     </>
   );

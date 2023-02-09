@@ -1,0 +1,28 @@
+.section3 {
+    display: flex;
+    margin-top: 90px;
+    padding: 0 10px 0 100px;
+    font-family: 'Syne', sans-serif;
+}
+
+.section3 .txt .heading {
+    line-height: 59.57px;
+    margin-bottom: 24px;
+}
+
+.section3 .txt p {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--Low-Black);
+    line-height: 23.31px;
+    margin-bottom: 34px;
+}
+
+.section3 .appLink{
+    display: flex;
+    gap: 20px;
+  }
+
+.section3 .img4 {
+    width: 853.33px;
+}

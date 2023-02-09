@@ -6,8 +6,7 @@ export default function Section1() {
     <>
       <section className={styles.section1}>
         <h1 className={styles.heading}>
-          Chosen ZuPago Wallet, The System Will Enable You To Do The
-          <span>Following.</span>
+          Chosen ZuPago Wallet, The System Will Enable You To Do The <span>Following.</span>
         </h1>
         <div className={styles.container}>
           <div className={styles.txt}>

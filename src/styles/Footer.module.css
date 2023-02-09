@@ -1,0 +1,67 @@
+.footer {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20.2618px;
+    color: var(--Card-txt-color);
+    padding: 40px 0;
+    background: #F7F7F7;
+    border-top: 1px solid #5e648a1a;
+}
+
+.footer .top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 30px;
+    border-bottom: 1.35px solid #D9D9D9;
+    margin: 0 50px;
+}
+
+.footer .top .logo {
+    height: fit-content;
+}
+
+.footer .top .appLink {
+    display: flex;
+    gap: 20px;
+}
+
+.footer .top .appLink img {
+    width: 198.06px;
+}
+
+.footer .bottom {
+    display: flex;
+    align-items: center;
+    padding: 30px 100px 0;
+    justify-content: space-between;
+}
+
+.footer .bottom .left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer .bottom .left p {
+    display: flex;
+    align-items: center;
+}
+
+.footer .bottom .left p>span {
+    font-size: 35px;
+    margin-right: 5px;
+}
+
+.footer .bottom .left .socialLink {
+    display: flex;
+    gap: 30px;
+}
+
+.footer .bottom .left .socialLink img {
+    width: 54.03px;
+}
+
+.footer .bottom .right {
+    display: flex;
+    gap: 25px;
+}
