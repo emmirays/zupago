@@ -18,12 +18,3 @@
     line-height: 23.31px;
     width: 60%;
 }
-
-.section4 .btn {
-    background-color: var(--White);
-    color: var(--Blue);
-}
-
-.bgwhite{
-    background-color: var(--White) !important;
-}

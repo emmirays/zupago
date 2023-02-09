@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "@/styles/Navbar.module.css";
+import Button from "./Button";
 
 export default function Navbar() {
   return (
@@ -34,7 +35,7 @@ export default function Navbar() {
         </div>
         <div className={styles.CTA}>
           <p>Login</p>
-          <p className={styles.btn}>Get Started</p>
+          <Button />
         </div>
       </nav>
     </>
