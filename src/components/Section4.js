@@ -11,7 +11,7 @@ export default function Section4() {
           form. Do not be left out, join the digital means of payment and enjoy
           the beauty of easy transactions.
         </p>
-        <p className={styles.btn}>Get Started</p>
+        <button className={styles.btn}>Get Started</button>
       </section>
     </>
   );

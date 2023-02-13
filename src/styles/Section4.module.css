@@ -20,7 +20,6 @@
 }
 
 .btn {
-    padding: 13px 40px;
     background-color: var(--White);
     font-family: 'Syne', sans-serif;
     font-size: 20px;
@@ -29,4 +28,5 @@
     height: 51px;
     color: var(--Blue);
     cursor: pointer;
+    border: none;
 }
