@@ -1,0 +1,36 @@
+.section5 {
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+    padding: 0 100px 100px;
+}
+
+.section5 .card {
+    text-align: center;
+    width: 440px;
+    padding: 30px 20px 0;
+    height: 250px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    color: var(--Card-txt-color);
+    background: #FFFFFF;
+    box-shadow: 0px 3px 35px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+}
+
+.section5 .end {
+    align-self: flex-end;
+}
+
+.section5 .card .head {
+    font-size: 18px;
+    margin: 10px 0 7px;
+    font-weight: 500;
+}
+
+.section5 .card .para {
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.02em;
+}

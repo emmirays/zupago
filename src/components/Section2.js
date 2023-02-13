@@ -39,7 +39,7 @@ export default function Section2() {
           </div>
           <div className={styles.msg}>
             <span>Hi! how can we help you? </span>
-            <img src="/section2-img/msg.png" alt="" />
+            <img Image width={60} height={60} src="/section2-img/msg.png" alt="" />
           </div>
         </div>
       </section>

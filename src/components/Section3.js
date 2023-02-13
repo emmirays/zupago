@@ -1,4 +1,5 @@
 import styles from "@/styles/Section3.module.css";
+import Image from "next/image";
 export default function Section3() {
   return (
     <>
@@ -32,11 +33,11 @@ export default function Section3() {
             and ease of use.
           </p>
           <div className={styles.appLink}>
-            <img src="/App-Store.png" alt="" />
-            <img src="/Google-Play.png" alt="" />
+            <Image width={221} height={69} src="/App-Store.png" alt="" />
+            <Image width={221} height={69} src="/Google-Play.png" alt="" />
           </div>
         </div>
-        <img className={styles.img4} src="/section3-img/img4.png" alt="" />
+        <Image width={854} height={640} className={styles.img4} src="/section3-img/img4.png" alt="" />
         
       </section>
     </>

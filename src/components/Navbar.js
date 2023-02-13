@@ -33,7 +33,9 @@ export default function Navbar() {
           </ul>
         </div>
         <div className={styles.CTA}>
-          <p>Login</p>
+          <p>
+            <Link href="">Login</Link>
+          </p>
           <button className={styles.btn}>Get Started</button>
         </div>
       </nav>
