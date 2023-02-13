@@ -37,7 +37,7 @@ export default function Section3() {
             <Image width={221} height={69} src="/Google-Play.png" alt="" />
           </div>
         </div>
-        <Image width={854} height={640} priority className={styles.img4} src="/section3-img/img4.png" alt="" />
+        <Image className={styles.img4} width={854} height={640} priority src="/section3-img/img4.png" alt="" />
         
       </section>
     </>
