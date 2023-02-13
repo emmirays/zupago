@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import styles from "@/styles/Hero.module.css";
 
@@ -32,18 +33,22 @@ export default function Hero() {
             both E-Currency &amp; Crypto-Currency from members.
           </p>
           <div className={styles.appLink}>
-            <Image
-              src="/App-Store.png"
-              width={220}
-              height={69}
-              alt="app store"
-            />
-            <Image
-              src="/Google-Play.png"
-              width={220}
-              height={69}
-              alt="google play"
-            />
+            <Link href="">
+              <Image
+                src="/App-Store.png"
+                width={220}
+                height={69}
+                alt="app store"
+              />
+            </Link>
+            <Link href="">
+              <Image
+                src="/Google-Play.png"
+                width={220}
+                height={69}
+                alt="google play"
+              />
+            </Link>
           </div>
           <div className={styles.appStats}>
             <div className={`${styles.users} ${styles.activeUsers}`}>

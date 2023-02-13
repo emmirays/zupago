@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "@/styles/Section3.module.css";
 import Image from "next/image";
 export default function Section3() {
@@ -33,8 +34,12 @@ export default function Section3() {
             and ease of use.
           </p>
           <div className={styles.appLink}>
-            <Image width={221} height={69} src="/App-Store.png" alt="" />
-            <Image width={221} height={69} src="/Google-Play.png" alt="" />
+            <Link href="">
+              <Image width={221} height={69} src="/App-Store.png" alt="" />
+            </Link>
+            <Link href="">
+              <Image width={221} height={69} src="/Google-Play.png" alt="" />
+            </Link>
           </div>
         </div>
         <Image className={styles.img4} width={854} height={640} priority src="/section3-img/img4.png" alt="" />

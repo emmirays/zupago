@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "@/styles/Footer.module.css";
 
 export default function Footer() {
@@ -8,8 +9,12 @@ export default function Footer() {
         <div className={styles.top}>
           <img className={styles.logo} src="Logo.png" alt="" />
           <div className={styles.appLink}>
-            <img src="/App-Store.png" alt="" />
-            <img src="/Google-Play.png" alt="" />
+            <Link href="">
+              <img src="/App-Store.png" alt="" />
+            </Link>
+            <Link href="">
+              <img src="/Google-Play.png" alt="" />
+            </Link>
           </div>
         </div>
 
@@ -20,17 +25,51 @@ export default function Footer() {
               Reserved.
             </p>
             <div className={styles.socialLink}>
-              <img src="/footer-img/facebook.png" alt="" />
-              <img src="/footer-img/twitter.png" alt="" />
-              <img src="/footer-img/linkedin.png" alt="" />
-              <img src="/footer-img/instagram.png" alt="" />
+              <Link href="">
+                <Image
+                  width={55}
+                  height={55}
+                  src="/footer-img/facebook.png"
+                  alt=""
+                />
+              </Link>
+              <Link href="">
+                <Image
+                  width={55}
+                  height={55}
+                  src="/footer-img/twitter.png"
+                  alt=""
+                />
+              </Link>
+              <Link href="">
+                <Image
+                  width={55}
+                  height={55}
+                  src="/footer-img/linkedin.png"
+                  alt=""
+                />
+              </Link>
+              <Link href="">
+                <Image
+                  width={55}
+                  height={55}
+                  src="/footer-img/instagram.png"
+                  alt=""
+                />
+              </Link>
             </div>
           </div>
 
           <div className={styles.right}>
-            <p>Terms & Privacy</p>
-            <p>Cookies</p>
-            <p>Security</p>
+            <Link href="">
+              <p>Terms & Privacy</p>
+            </Link>
+            <Link href="">
+              <p>Cookies</p>
+            </Link>
+            <Link href="">
+              <p>Security</p>
+            </Link>
           </div>
         </div>
       </footer>
