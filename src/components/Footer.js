@@ -7,7 +7,9 @@ export default function Footer() {
     <>
       <footer className={styles.footer}>
         <div className={styles.top}>
-          <img className={styles.logo} src="Logo.png" alt="" />
+          <Link href="/">
+            <Image className={styles.logo} width={229} height={49} src="/Logo.png" alt="" />
+          </Link>
           <div className={styles.appLink}>
             <Link href="">
               <img src="/App-Store.png" alt="" />

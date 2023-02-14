@@ -7,13 +7,15 @@ export default function Navbar() {
     <>
       <nav className={styles.nav}>
         <div className={styles.navLinks}>
-          <Image
-            src="/Logo.png"
-            width={164}
-            height={35}
-            priority
-            alt="Zupago Logo"
-          />
+          <Link href="/">
+            <Image
+              src="/Logo.png"
+              width={164}
+              height={35}
+              priority
+              alt="Zupago Logo"
+            />
+          </Link>
           <ul>
             <li>
               <Link href="/">Home</Link>
