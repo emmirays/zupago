@@ -5,7 +5,7 @@ export default function Section2() {
   return (
     <>
       <section className={styles.section2}>
-        <img className={styles.img3} src="/section2-img/img3.png" alt="" />
+        <Image className={styles.img3} width={750} height={712} priority src="/section2-img/img3.png" alt="" />
         <div className={styles.txt}>
           <h1 className={styles.heading}>We Provide Gift Card Services</h1>
           <p className={styles.para}>
