@@ -20,20 +20,20 @@ export default function Section2() {
           <p className={styles.head}>How Gift Cards Can Benefit You:</p>
           <div className={styles.list}>
             <p>
-              <img src="/section2-img/Ellipse 94.png" alt="" /> You will get fee
+              <Image src="/section2-img/Ellipse 94.png" width={32} height={32} alt="" /> You will get fee
               zero while generating, paying or using ZuPago Gift card
             </p>
             <p>
-              <img src="/section2-img/Ellipse 94.png" alt="" /> You will be able
+              <Image src="/section2-img/Ellipse 94.png" width={32} height={32} alt="" /> You will be able
               to pay for products & services instantly without own
               <span>account with ZuPago.</span>
             </p>
             <p>
-              <img src="/section2-img/Ellipse 94.png" alt="" /> Gift cards will
+              <Image src="/section2-img/Ellipse 94.png" width={32} height={32} alt="" /> Gift cards will
               make it easy to control your spending.
             </p>
             <p>
-              <img src="/section2-img/Ellipse 94.png" alt="" /> Instant funding
+              <Image src="/section2-img/Ellipse 94.png" width={32} height={32} alt="" /> Instant funding
               of your ZuPago account.
             </p>
           </div>

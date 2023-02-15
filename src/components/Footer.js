@@ -12,10 +12,10 @@ export default function Footer() {
           </Link>
           <div className={styles.appLink}>
             <Link href="">
-              <img src="/App-Store.png" alt="" />
+              <Image width={198} height={61} src="/App-Store.png" alt="" />
             </Link>
             <Link href="">
-              <img src="/Google-Play.png" alt="" />
+              <Image width={198} height={61} src="/Google-Play.png" alt="" />
             </Link>
           </div>
         </div>
