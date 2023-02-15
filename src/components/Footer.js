@@ -23,7 +23,7 @@ export default function Footer() {
         <div className={styles.bottom}>
           <div className={styles.left}>
             <p>
-              <span>&copy;</span> 2022 ZuPago HyBrid (HD) Wallet All Rights
+              <span>&copy;</span> 2023 ZuPago HyBrid (HD) Wallet All Rights
               Reserved.
             </p>
             <div className={styles.socialLink}>
