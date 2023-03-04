@@ -35,14 +35,14 @@ export default function Section3() {
           </p>
           <div className={styles.appLink}>
             <Link href="">
-              <Image width={221} height={69} src="/App-Store.png" alt="" />
+              <Image width={221} height={69} quality="100" src="/App-Store.png" alt="" />
             </Link>
             <Link href="">
-              <Image width={221} height={69} src="/Google-Play.png" alt="" />
+              <Image width={221} height={69} quality="100" src="/Google-Play.png" alt="" />
             </Link>
           </div>
         </div>
-        <Image className={styles.img4} width={854} height={640} priority src="/section3-img/img4.png" alt="" />
+        <Image className={styles.img4} width={854} height={640} quality="100" priority src="/section3-img/img4.png" alt="" />
         
       </section>
     </>

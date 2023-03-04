@@ -5,7 +5,7 @@ export default function Section5() {
     <>
       <section className={styles.section5}>
         <div className={styles.card}>
-          <Image width={46} height={46} src="/section5-img/icon1.png" alt="" />
+          <Image width={46} height={46} src="/section5-img/icon1.png" quality="100" alt="" />
           <p className={styles.head}>FULL ACCESS TO FUNDS</p>
           <p className={styles.para}>
             ZuPago put you in total charge of your money with no delay of third
@@ -15,7 +15,7 @@ export default function Section5() {
           </p>
         </div>
         <div className={`${styles.card} ${styles.end}`}>
-          <Image width={46} height={46} src="/section5-img/icon2.png" alt="" />
+          <Image width={46} height={46} src="/section5-img/icon2.png" quality="100" alt="" />
           <p className={styles.head}>ONE WAY CRYPTO-CURRENCY ACCESS</p>
           <p className={styles.para}>
             With just a single sign up, ZuPago provides you more than three
@@ -26,7 +26,7 @@ export default function Section5() {
           </p>
         </div>
         <div className={styles.card}>
-          <Image width={46} height={46} src="/section5-img/icon3.png" alt="" />
+          <Image width={46} height={46} src="/section5-img/icon3.png" quality="100" alt="" />
           <p className={styles.head}>GIFT-CARD DYNAMIC</p>
           <p className={styles.para}>
             Most time’s we love to give the best of gift to our loved ones, but

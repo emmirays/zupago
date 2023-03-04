@@ -8,14 +8,14 @@ export default function Footer() {
       <footer className={styles.footer}>
         <div className={styles.top}>
           <Link href="/">
-            <Image className={styles.logo} width={229} height={49} src="/Logo.png" alt="" />
+            <Image className={styles.logo} width={229} height={49} quality="100" src="/Logo.png" alt="" />
           </Link>
           <div className={styles.appLink}>
             <Link href="">
-              <Image width={198} height={61} src="/App-Store.png" alt="" />
+              <Image width={198} height={61} src="/App-Store.png" quality="100" alt="" />
             </Link>
             <Link href="">
-              <Image width={198} height={61} src="/Google-Play.png" alt="" />
+              <Image width={198} height={61} src="/Google-Play.png" quality="100" alt="" />
             </Link>
           </div>
         </div>
@@ -31,6 +31,7 @@ export default function Footer() {
                 <Image
                   width={55}
                   height={55}
+                  quality="100"
                   src="/footer-img/facebook.png"
                   alt=""
                 />
@@ -39,6 +40,7 @@ export default function Footer() {
                 <Image
                   width={55}
                   height={55}
+                  quality="100"
                   src="/footer-img/twitter.png"
                   alt=""
                 />
@@ -47,6 +49,7 @@ export default function Footer() {
                 <Image
                   width={55}
                   height={55}
+                  quality="100"
                   src="/footer-img/linkedin.png"
                   alt=""
                 />
@@ -55,6 +58,7 @@ export default function Footer() {
                 <Image
                   width={55}
                   height={55}
+                  quality="100"
                   src="/footer-img/instagram.png"
                   alt=""
                 />

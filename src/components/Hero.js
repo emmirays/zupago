@@ -38,6 +38,7 @@ export default function Hero() {
                 src="/App-Store.png"
                 width={220}
                 height={69}
+                quality="100"
                 alt="app store"
               />
             </Link>
@@ -46,6 +47,7 @@ export default function Hero() {
                 src="/Google-Play.png"
                 width={220}
                 height={69}
+                quality="100"
                 alt="google play"
               />
             </Link>
@@ -66,6 +68,7 @@ export default function Hero() {
           src="/hero-img/img1.png"
           width={800}
           height={833}
+          quality="100"
           priority
           alt="zupago app"
         />

@@ -43,7 +43,7 @@ export default function Section1() {
               Unique Features For Businesses As Well As Personal Accounts.
             </p>
           </div>
-          <Image className={styles.img2} src="/section1-img/img2.png" priority width={476} height={621} alt="" />
+          <Image className={styles.img2} src="/section1-img/img2.png" priority width={476} height={621} quality="100" alt="" />
         </div>
       </section>
     </>
